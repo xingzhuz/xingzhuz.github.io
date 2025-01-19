@@ -15635,9 +15635,10 @@ a#toPageButton {
 
 blockquote {
   border: var(--style-border-always);
-  background-color: var(--anzhiyu-secondbg);
-  /* color: var(--anzhiyu-secondtext); */
-  color: #f0ec916e;
+  /* background-color: var(--anzhiyu-secondbg); */
+  background-color: #f0ec916e;
+  ;
+  color: var(--anzhiyu-secondtext);
   border-radius: 8px;
   margin: 1rem 0;
   padding: 0.5rem 0.8rem;
