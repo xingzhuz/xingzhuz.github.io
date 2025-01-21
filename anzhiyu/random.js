@@ -1,3 +1,3 @@
-var posts=["配置/google/","配置/hexo-github/","Linux/git/","Linux/message-queue/","cpp/lambda/","cpp/smart-pointer/","cpp/thread-threadpool/","cpp/wrapper-binder/","Linux/thread-linux/","cpp/threadpool-cpp/","Linux/bashshell/","Python/python-base/","QT/qt-base/","QT/qt-signal-slot/","QT/qt-widget/"];function toRandomPost(){
+var posts=["Linux/bashshell/","Linux/git/","配置/google/","配置/hexo-github/","cpp/lambda/","Linux/message-queue/","Python/python-base/","QT/qt-signal-slot/","QT/qt-base/","QT/qt-widget/","cpp/smart-pointer/","Linux/thread-linux/","cpp/thread-threadpool/","cpp/threadpool-cpp/","cpp/wrapper-binder/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
